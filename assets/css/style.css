@@ -11,5 +11,6 @@ h1 {font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 body {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;  
     background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
+    color: white
 
 }
