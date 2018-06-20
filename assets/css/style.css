@@ -1,0 +1,15 @@
+/*PSYCHICGAME*/
+
+h1 {font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    color:#4aaaa5;
+    font-size: 36px;
+  
+    
+}
+
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;  
+    background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
+
+}
