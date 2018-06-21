@@ -6,17 +6,18 @@ var GuessesLeft = 8;
 var won = 0;
 var lost = 0;
 var AlreadyGuessed = [];
-var randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
 
-var UserGuess = event.key;
+
+
 
 document.onkeyup = function (event) {
 
-
-
+    var UserGuess = event.key;
+    var randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
 
 if ((UserGuess === randomLetter))
     won++;
+    document.write 
 
 if ((UserGuess != randomLetter))
     lost++;
@@ -25,4 +26,6 @@ GuessesLeft--;
 if (GuessesLeft === 0) {
     return;
 }
+
+document.querySelector("#game").innerHTML = "You chose: " + UserGuess + ". The computer chose: " + randomLetter;
 }
